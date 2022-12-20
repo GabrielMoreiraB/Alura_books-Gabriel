@@ -1,4 +1,6 @@
 root{
     --cor-de-fundo: #EBECEE;
-
+    --cor-degrade-destaque:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-icons:#002F52;
+    --cor-titulos:#EB9B00;
 }
