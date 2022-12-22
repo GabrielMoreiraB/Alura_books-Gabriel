@@ -34,17 +34,12 @@
 }
 
 .card__icons-coração, .card__icons-compras{
-    width: 24px;
     padding-right: 1.5em;
-}
-
-.card__icons-compras{
-    width: 21px;
 }
 
 .card__imagem{
     margin: auto;
-    width: 100%;
+    
     margin-top: 0;
 }
 
@@ -56,4 +51,5 @@
     padding: 1em;
     text-align: center;
     color: var(--branco);
+    margin-top:0.5em ;
 }
