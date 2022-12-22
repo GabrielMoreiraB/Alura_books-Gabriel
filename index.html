@@ -58,6 +58,10 @@
                 <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
             <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide"><img src="img/livros/Acessibilidade.svg" alt="livro acessibilidade"></div>
@@ -70,19 +74,37 @@
             <div class="swiper-slide"><img src="img/livros/UX.svg" alt="livro de UX"></div>
             
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-        
+                    
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-        
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
         </div>
     </section>
     
+    <section class="card">
+        <div class="card__texto">
+            <h2 class="card__texto-introducao">Talvez Você também se interesse por...</h2>
+            <h2 class="card__texto-titulo">Angular 11 e Firebase</h2>
+            <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
+        </div>
+        <img src="img/Angular 11 Firebase.svg" alt="livro Angular 11 Firebase" class="card__imagem">
+        <div class="card__icons">
+            <img src="img/Favoritos.svg" alt="favoritos" class="card__icons">
+            <img src="img/Compras.svg" alt="compras" class="card__icons">
+        </div>
+        <a href="#" class="card__botao">Saiba mais</a>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 15,
+            slidesPerView: 3,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
