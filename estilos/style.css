@@ -1,7 +1,8 @@
 @import url(header.css);
-@import url(banner1.css);
+@import url(banner.css);
 @import url(carrossel.css);
 @import url(card.css);
+@import url(novidades.css);
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -19,3 +20,13 @@ body{
     font-size: 16px;
 }
 
+footer{
+    background-color: var(--branco);
+    border-top: solid 1px #858585;
+}
+
+.rodape{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1em 1em 2em 1em;
+}
