@@ -38,7 +38,7 @@
 }
 
 .card__imagem{
-    margin: auto;
+    margin: 0 auto;
  
 }
 
@@ -58,4 +58,21 @@
     width: 75px;
     background: url(../img/Star\ 1.svg);
     margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .card{
+        width: 65%;
+        margin: 3em auto;
+    }
+
+    .card__imagem{
+        width: 50%;
+    }
+
+    .card__botao{
+        width: 40%;
+        margin: 1em auto;
+    }
+
 }
