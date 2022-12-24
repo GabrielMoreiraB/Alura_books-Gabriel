@@ -61,3 +61,24 @@
     margin: 1em;
     color: var(--branco);
 }
+
+@media screen and (min-width: 1024px){
+    .banner, .banner2{
+        padding: 5em;
+    }
+
+    .banner__titulo{
+        font-size: 36px;
+        font-weight: 700;
+        
+    }
+
+    .banner__texto{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .banner__pesquisa{
+        width: 400px;
+    }
+}
