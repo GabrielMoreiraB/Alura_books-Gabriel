@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
     </style>
 </head>
 <body>
@@ -37,12 +38,43 @@
                     <a href="#" class="lista-menu__link">DESIGN & US</a>
                 </li>
             </ul>
-            <img src="img/Logo.svg" alt="Logo do AluraBooks" class="cabecalho__logo container__imagem">
+            <img src="img/Logo.svg" alt="Logo do AluraBooks" class="cabecalho__logo ">
+            <h1 class="cabecalho__titulo"><b class="cabecalho__titulo--negrito">Alura</b>Books</h1>
         </div>
+
+            <ul class="options">
+            <input type="checkbox" id="opicao-menu" class="opcoes_botao">
+            <label for="opicao-menu">
+            <li href="#" class="option__item">CATEGORIAS</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">PROGRAMAÇÃO</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">FRONT-END</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">INFRAESTRUTURA</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">BUSINESS</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">DESIGN & US</a>
+                </li>
+            </ul>
+
+            <li class="option__item"><a href="#" class="option__link">FAVORITOS</a></li>
+            <li class="option__item"><a href="#" class="option__link">MINHA ESTANTE</a></li>
+        </ul>
+
+
         <div class="container">
-            <a href="#" class="cabecalho__icons container__imagem"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
-            <a href="#" class="cabecalho__icons container__imagem"><img src="img/Compras.svg" alt="Meu carrinho"></a>
-            <a href="#" class="cabecalho__icons container__imagem"><img src="img/Usuario.svg" alt="Meu perfil"></a>
+            <a href="#" class=" container-favoritos container__imagem"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
+            <a href="#" class="container-carrinho container__imagem"><img src="img/Compras.svg" alt="Meu carrinho"></a>
+            <a href="#" class="container-usuario container__imagem"><img src="img/Usuario.svg" alt="Meu perfil"></a>
         </div>
         
     </header>
