@@ -62,9 +62,10 @@
     display: none;
 }
 
-.cabecalho__titulo, .options{
+.cabecalho__titulo, .options, .container__imagem-texto{
     display: none;
 }
+
 
 @media screen and (min-width: 1024px){
     .cabecalho{
@@ -112,6 +113,36 @@
     .opcoes_botao{
         display: none;
     }
+
+
+
+}
+
+@media screen and (min-width: 1728px){
+
+    .cabecalho{
+        padding: 1em 2em;
+    }
+
+    .options{
+        margin-right: auto;
+    }
+
+    .container{
+        justify-items: end;
+    }
+
+    .container__imagem-texto{
+        display: block;
+        padding-left: 0.5em;
+    }
+
+    .container-carrinho, .container-usuario{
+        display: flex;
+        align-items: center;
+    }
+
+
 
 
 

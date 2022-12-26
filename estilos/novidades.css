@@ -33,3 +33,16 @@
     background: url(../img/e-mail.svg) no-repeat;
     background-position: 1em;
 }
+
+@media screen and (min-width: 1024px){
+    .novidades{
+        display: grid;
+        grid-column: 2;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .novidades__cadastro{
+        height: 40px;
+        margin: auto;
+        width: 80%;
+    }
+}
