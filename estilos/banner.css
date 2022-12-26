@@ -93,6 +93,11 @@
         font-weight: 700;
         margin: 0.5em;
     }
+
+    .banner__topicos-link:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+        }
 }
 
 @media screen and (min-width: 1728px){
