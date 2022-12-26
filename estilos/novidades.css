@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 1728px){
     .novidades{
-        width: 50vw;
+        padding: 0 25vw;
         margin: 0 auto;
     }
 
