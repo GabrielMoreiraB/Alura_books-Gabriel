@@ -94,3 +94,10 @@
         margin: 0.5em;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .banner__topicos{
+        width: 50vw;
+        margin: 0 auto;
+    }
+}

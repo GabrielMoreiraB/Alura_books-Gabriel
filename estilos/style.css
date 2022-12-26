@@ -77,3 +77,13 @@ footer{
        
     }
 }
+
+@media screen and (min-width: 1728px){
+    .lista__rodape-item{
+        border-left: solid 1px #858585;
+    }
+
+    footer{
+        padding-top: 3em;
+    }
+}

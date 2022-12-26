@@ -44,6 +44,20 @@
     .carrossel__container{
         display: grid;
         grid-column: 2;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns:55% 40% ;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        top: 60%;
+    }
+
+    .banner__titulo-2{
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .carrossel__titulo{
+        font-size: 32px;
+        font-weight: 300;
     }
 }
