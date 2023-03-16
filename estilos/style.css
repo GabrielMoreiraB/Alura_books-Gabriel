@@ -76,6 +76,10 @@ footer{
        padding-left: .5em;
        
     }
+
+    .lista__rodape-link:hover{
+        color: var(--laranja);
+    }
 }
 
 @media screen and (min-width: 1728px){
